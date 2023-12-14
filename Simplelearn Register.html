@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Registration form</title>
+    <style>
+        form{
+            height: 550px;
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #212121;
+    border-radius: 5px;
+    
+}
+.Registration-form{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+}
+.Registration-form h1{
+    margin-left: 100px;
+
+}
+.Registration-form input{
+    margin-left: 100px;
+}
+body{
+    background: url(Simple\ learn\ register.jpg);
+    background-size: cover;
+}
+.Registration-form select{
+    margin-left: 100px;
+}
+.Registration-form button{
+    color: rgb(39, 38, 38);
+    margin-left: 80px;
+    background: transparent;
+    font-size: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+    </style>
+</head>
+<body>
+    <h1><a href="http://127.0.0.1:5500/Simple%20learn.html" style="cursor: pointer; text-decoration: none;color: rgb(83, 73, 73);margin-left: 50px;border: 2px solid black; border-radius: 10px;">Simplelearn</a></h1>
+    <div class="Registration-form">
+        <form action="#" method="post">
+            <h1 style="color: rgb(30, 31, 31); "><b>REGISTRATION FORM</b></i></h1>
+            <p style="text-align: center; color: rgb(30, 31, 31);">Please fill the below form to register with us!</p>
+            <hr width="400">
+            <h1 style="font-size: medium; color: rgb(30, 31, 31)">First Name:</h1>
+            <input type="text" placeholder="Enter your first name" required>
+            <h1 style="font-size: medium; color: rgb(30, 31, 31)">Last Name:</h1>
+            <input type="text" placeholder="Enter your last name" required>
+            <h1 style="font-size: medium; color: rgb(30, 31, 31)">Mobile number:</h1>
+            <input type="number" placeholder="Enter mobile number" required>
+            <h1 style="font-size: medium; color: rgb(30, 31, 31)">Email ID:</h1>
+            <input type="email" placeholder="Enter your Email ID" required>
+            <h1 style="font-size: medium; color:rgb(30, 31, 31)">Gender:</h1>
+            <input type="radio" name="click">Male
+            <input type="radio" name="click">Female
+            <input type="radio" name="click">Others
+            <h1 style="font-size: medium; color:rgb(30, 31, 31)">Highest qualification:</h1>
+            <select>
+                <option value="qualification">Qualification</option>
+                <option value="BTech">B.Tech</option>
+                <option value="Degree">Degree</option>
+                <option value="MTech">M.Tech</option>
+            </select>
+            <br><br>
+            <div>
+            <button type="submit">Register</button> <b style="color:rgb(30, 31, 31); font-size: 25px;">Already have account?</b>
+        <a href="http://127.0.0.1:5500/Simplelearn%20Login.html" style="text-decoration: none; color: rgb(11, 11, 11);">Sign in</a>
+    </div>
+        </form>
+</body>
+</html>

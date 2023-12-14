@@ -1,0 +1,20 @@
+.div1{
+    padding: 50px;
+    margin-left: 10px;
+    background-color: yellow;
+}
+.div2{
+    padding: 100px;
+    margin: 10px;
+    background-color:violet;
+}
+.btn1{
+    margin-left: 1000px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.btn2{
+    margin-top: 30px;
+    margin-left: 500px;
+    cursor: pointer;
+}

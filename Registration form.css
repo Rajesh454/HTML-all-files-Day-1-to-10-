@@ -1,0 +1,38 @@
+form{
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+.Registration-form{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+}
+.Registration-form h1{
+    margin-left: 100px;
+
+}
+.Registration-form input{
+    margin-left: 100px;
+}
+body{
+    background: url('Kohli.jpg') no-repeat;
+    background-size: cover;
+}
+.Registration-form select{
+    margin-left: 100px;
+}
+.Registration-form button{
+    color: white;
+    margin-left: 80px;
+    background-color: green;
+    font-size: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+

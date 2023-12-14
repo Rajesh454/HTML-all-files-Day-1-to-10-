@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form in table</title>
+</head>
+<body style="text-align: center; background-image: url(wg.jpg); margin-top: 50px;">
+    <center>
+    <table border="2px" style="border-collapse: collapse;">
+        <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif;">ANARGHYA COMMUNICATIONS</h1>
+        <h3 style="font-family: cursive;">Your career journey is as unique as you are. Our services empower individuals at every stage,<h3>
+        <h3 style="font-family: cursive;">offering the support and resources to navigate the ever-evolving job market. Join us!</h3>
+        <h1>FILL THE FORM BELOW</h1>
+        <form>
+            <tr>
+                <td>Full Name</td>
+                <td><input type="text" placeholder="Enter your full name" required style="background: transparent;"></td>
+            </tr>
+            <tr>
+                <td>Email ID</td>
+                <td><input type="email" placeholder="Enter your Email ID" required style="background: transparent;"></td>
+            </tr>
+            <tr>
+                <td>Mobile number</td>
+                <td>+91<input type="number" placeholder="Enter your mobile number" required style="background: transparent;"></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td><input type="radio" name="male">Male
+                <input type="radio" name="male">Female
+                <input type="radio" name="male">Others</td>
+            </tr>
+            <tr>
+                <td>Current Address</td>
+                <td><textarea cols="40" rows="6" placeholder="Enter your current address" style="background: transparent;"></textarea></td>
+            </tr>
+            <tr>
+                <td>Highest Qualification</td>
+                <td>
+                    <select style="background: transparent;">
+                        <option value="qualification" >Qualification</option>
+                        <option value="btech">B.TECH</option>
+                        <option value="degree">DEGREE</option>
+                        <option value="mtech">M.TECH</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Year of passedout</td>
+                <td>
+                    <select style="background: transparent;">
+                        <option value="YOP">YOP</option>
+                        <option value="2016">2016</option>
+                        <option value="2017">2017</option>
+                        <option value="2018">2018</option>
+                        <option value="2019">2019</option>
+                        <option value="2020">2020</option>
+                        <option value="2021">2021</option>
+                        <option value="2022">2022</option>
+                        <option value="2023">2023</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Are you willing to relocate?</td>
+                <td><input type="radio" name="yes">YES
+                    <input type="radio" name="yes">NO</td>
+
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="submit" style="margin-left: 100px; width: 80px; height: 30px; font-size: medium; color: black; background: transparent; border-radius: 10px; cursor: pointer;"><b>Submit</b></button>
+                    <button type="submit" style="margin-left: 100px; width: 80px; height: 30px; font-size: medium;  color: black; background: transparent; border-radius: 10px; cursor: pointer;"><b>Cancel</b></button>
+                </td>
+            </tr>
+        </form>
+    </table>
+</center>
+</body>
+</html>
